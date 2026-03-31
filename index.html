@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Shariq Ali | Infrastructure Plumber</title>
+    <meta name="description" content="Syed Shariq Ali - Infrastructure Plumber specializing in Kubernetes, Observability, and Cloud-Native AI architecture.">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="particles" id="particles"></div>
+
+    <nav>
+        <div class="nav-content">
+            <div class="logo">~/syed</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#impact">Impact</a></li>
+                <li><a href="#feats">Engineering Feats</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="hero">
+        <div class="hero-content fade-in-up">
+            <h2 class="greeting">Hi, I'm</h2>
+            <h1 class="name">Syed <span class="accent-gold">Shariq Ali</span></h1>
+            <div class="typewriter-placeholder">
+                <span class="typewriter-text" id="typewriter"></span><span class="cursor">|</span>
+            </div>
+            <p class="hero-desc">10+ years engineering systems from scratch. I build highly reliable, scalable, and observable multi-cloud infrastructure platforms.</p>
+            <div class="hero-cta">
+                <a href="#feats" class="btn primary-btn">View My Work</a>
+                <a href="mailto:hello@syedshariqali.com" class="btn secondary-btn">Contact Me</a>
+                <a href="https://linkedin.com/in/syed-shariq-ali" target="_blank" class="btn icon-btn">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="24" height="24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                </a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </header>
+
+    <section id="impact">
+        <div class="section-container">
+            <h2 class="section-title">Impact <span class="accent-gold">at Scale</span></h2>
+            <div class="kpi-grid">
+                <div class="kpi-card hidden">
+                    <h3 class="kpi-num">2400+</h3>
+                    <p class="kpi-label">Zero-Downtime<br>Tenant Upgrades</p>
+                </div>
+                <div class="kpi-card hidden" style="transition-delay: 100ms;">
+                    <h3 class="kpi-num">75%</h3>
+                    <p class="kpi-label">Alert Noise<br>Eliminated via AI</p>
+                </div>
+                <div class="kpi-card hidden" style="transition-delay: 200ms;">
+                    <h3 class="kpi-num">60x</h3>
+                    <p class="kpi-label">Deploy Speed Gain<br>(600m to &lt;10m)</p>
+                </div>
+                <div class="kpi-card hidden" style="transition-delay: 300ms;">
+                    <h3 class="kpi-num">75%</h3>
+                    <p class="kpi-label">Infra Cost Saved<br>via Arch Migrations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="section-container">
+            <div class="about-content hidden">
+                <div class="about-text">
+                    <h2 class="section-title">My <span class="accent-gold">Philosophy</span></h2>
+                    <p>I am a Lead engineer with a deep background in Python software engineering, SRE, and platform infrastructure. My approach bridges the gap between software development and cloud-native architecture.</p>
+                    <p>Instead of just operating systems, I <strong>build and automate them</strong>. Whether it's crafting an autonomous AI SRE agent from scratch or architecting a multi-tenant observability platform capable of handling 26 million logs per minute across 600+ tenants, I focus on creating self-healing, scalable structures.</p>
+                    <p>I believe in <em>proactive over reactive</em> engineering. My goal is always to treat infrastructure as a software problem, eliminating toil, reducing MTTR, and empowering developers to move faster with confidence.</p>
+                </div>
+                <div class="about-visual">
+                    <div class="glow-box">
+                        <div class="code-snippet">
+<span class="code-comment"># Philosophy </span>
+<span class="code-keyword">def</span> <span class="code-function">solve_infrastructure</span>(scale):
+    <span class="code-keyword">if</span> scale == <span class="code-string">"massive"</span>:
+        <span class="code-keyword">return</span> <span class="code-string">"Automate to 0 Touch"</span>
+    <span class="code-keyword">return</span> <span class="code-string">"Investigate &amp; Optimize"</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="feats">
+        <div class="section-container">
+            <h2 class="section-title">Featured <span class="accent-gold">Engineering Feats</span></h2>
+            <div class="timeline">
+                
+                <div class="feat-card hidden">
+                    <div class="feat-icon">🤖</div>
+                    <div class="feat-content">
+                        <h3>AI-Powered Observability Engine</h3>
+                        <p class="feat-context">Atlan | Platform Engineering</p>
+                        <p>Architected and built an autonomous AI SRE agent (OpenClaw + Claude) that investigates production incidents end-to-end. Orchestrates parallel observability queries across Prometheus, ClickHouse, and Grafana.</p>
+                        <ul class="feat-bullets">
+                            <li>Delivers structured, streaming RCAs to Slack in <strong>under 30 seconds</strong>.</li>
+                            <li>Reduced alert triage time from 30 min to under 5 min, eliminating <strong>75%</strong> of alert noise.</li>
+                            <li>Automates root cause analysis and surfaces PRs with proposed fixes directly in Slack.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="feat-card hidden">
+                    <div class="feat-icon">🌐</div>
+                    <div class="feat-content">
+                        <h3>Multi-Cloud Infrastructure at Scale</h3>
+                        <p class="feat-context">Atlan | Multi-Tenant Platform</p>
+                        <p>Defined and led platform reliability across AWS, Azure, and GCP, setting standards for all engineering teams across 600+ enterprise tenants.</p>
+                        <ul class="feat-bullets">
+                            <li>Managed 107 EKS/GKE/AKS clusters and <strong>14,000+ nodes</strong>.</li>
+                            <li>Delivered 2,400+ zero-downtime tenant upgrades spanning Cluster Autoscaler migrations, vCluster rollouts, and K8s v1.32 upgrades.</li>
+                            <li>Built Argo wrokflows reducing IT manual provisioning tickets by 55%.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="feat-card hidden">
+                    <div class="feat-icon">📊</div>
+                    <div class="feat-content">
+                        <h3>Centralised Telemetry Platform</h3>
+                        <p class="feat-context">Atlan | Observability</p>
+                        <p>Led a massive migration from isolated, tenant-based ELK stacks and Prometheus to a centralized, highly scalable observability pipeline.</p>
+                        <ul class="feat-bullets">
+                            <li>Built an <strong>OpenTelemetry → ClickHouse</strong> logging platform handling <strong>26 million logs/minute</strong>.</li>
+                            <li>Architected a central VictoriaMetrics stack unlocking cross-tenant metric correlation.</li>
+                            <li>Migration directly cut overall observability infrastructure costs by <strong>50%</strong>.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="feat-card hidden">
+                    <div class="feat-icon">🚀</div>
+                    <div class="feat-content">
+                        <h3>Super-App Container Migration & CI/CD</h3>
+                        <p class="feat-context">Careem | Core Infrastructure</p>
+                        <p>Drove a complete overhaul of the deployment pipeline and container orchestration strategy for the organization's super-app ecosystem.</p>
+                        <ul class="feat-bullets">
+                            <li>Led the migration of <strong>600+ production services</strong> from Elastic Beanstalk to Kubernetes, reducing onboarding time from 4 days to 1 hour.</li>
+                            <li>Automated 600+ CI/CD pipeline migrations from Jenkins to GitHub Actions safely.</li>
+                            <li>Introduced robust GitOps architecture for cluster workload management via FluxCD and ArgoCD.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="feat-card hidden">
+                    <div class="feat-icon">📉</div>
+                    <div class="feat-content">
+                        <h3>Deployment KPIs & DORA Metrics Strategy</h3>
+                        <p class="feat-context">Careem | Engineering Metrics</p>
+                        <p>Designed and scaled an organization-wide Deployment KPIs dashboard tracking critical metrics like Change Lead Time (CLT), MTTR, MTTD, and batch size across all 600+ services.</p>
+                        <ul class="feat-bullets">
+                            <li>Used data-driven insights to systematically identify pipeline bottlenecks.</li>
+                            <li>Reduced Change Lead Time from <strong>600+ minutes to &lt;10 minutes</strong> (60x speed gain).</li>
+                            <li>Empowered engineering teams to safely scale deployment frequency from 2-3 times a week to <strong>5 times a day</strong>.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="feat-card hidden">
+                    <div class="feat-icon">🏗️</div>
+                    <div class="feat-content">
+                        <h3>Legacy Infrastructure to IaC Automation</h3>
+                        <p class="feat-context">Careem | Python Automation</p>
+                        <p>Built a comprehensive Python automation toolkit to programmatically convert untracked, manually-created AWS infrastructure into strictly managed Infrastructure as Code (IaC) without downtime.</p>
+                        <ul class="feat-bullets">
+                            <li>Converted <strong>600+ AWS resources</strong> including Elastic Beanstalk, RDS, ElastiCache, Elasticsearch, and DynamoDB.</li>
+                            <li>Scripts successfully auto-generated Terraform modules and cleanly imported existing resource state.</li>
+                            <li>Enforced strict version control and consistency across the organization's legacy cloud footprint.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-container">
+            <h2 class="section-title">Technical <span class="accent-gold">Arsenal</span></h2>
+            <div class="skills-grid">
+                
+                <div class="skill-category hidden">
+                    <h3>Orchestration</h3>
+                    <div class="tags">
+                        <span class="tag">Kubernetes (EKS/GKE/AKS)</span>
+                        <span class="tag">vCluster</span>
+                        <span class="tag">Helm</span>
+                    </div>
+                </div>
+
+                <div class="skill-category hidden" style="transition-delay: 100ms;">
+                    <h3>Observability</h3>
+                    <div class="tags">
+                        <span class="tag">ClickHouse</span>
+                        <span class="tag">VictoriaMetrics</span>
+                        <span class="tag">Prometheus</span>
+                        <span class="tag">Grafana</span>
+                        <span class="tag">OpenTelemetry (OTEL)</span>
+                    </div>
+                </div>
+
+                <div class="skill-category hidden" style="transition-delay: 200ms;">
+                    <h3>Infrastructure as Code</h3>
+                    <div class="tags">
+                        <span class="tag">Terraform</span>
+                        <span class="tag">Terragrunt</span>
+                        <span class="tag">Crossplane</span>
+                    </div>
+                </div>
+
+                <div class="skill-category hidden" style="transition-delay: 300ms;">
+                    <h3>CI/CD</h3>
+                    <div class="tags">
+                        <span class="tag">ArgoCD</span>
+                        <span class="tag">GitHub Actions</span>
+                        <span class="tag">Jenkins</span>
+                    </div>
+                </div>
+
+                <div class="skill-category hidden" style="transition-delay: 400ms;">
+                    <h3>Cloud & Languages</h3>
+                    <div class="tags">
+                        <span class="tag">Python</span>
+                        <span class="tag">AWS</span>
+                        <span class="tag">Azure</span>
+                        <span class="tag">GCP</span>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="certs-container hidden">
+                <h3 style="font-size: 1.8rem; margin-bottom: 2rem; color: var(--text-primary); text-align: center;">Professional <span class="accent-gold">Certifications</span></h3>
+                <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
+                    <div class="cert-card">
+                        <div class="cert-icon">🥇</div>
+                        <div class="cert-details">
+                            <h4>CKA</h4>
+                            <p>Certified Kubernetes Administrator</p>
+                        </div>
+                    </div>
+                    <div class="cert-card">
+                        <div class="cert-icon">🛡️</div>
+                        <div class="cert-details">
+                            <h4>CKS</h4>
+                            <p>Certified Kubernetes Security Specialist</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h2 class="footer-logo">~/syed</h2>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
